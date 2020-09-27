@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="../src//assets/sambhav_mihir_edit.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+
+    <!-- link fr cursor css -->
+    <link rel="stylesheet" href="./cursorstyle.css" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha384- 
+ B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Sambhav Jain</title>
+    <style>
+      #load_pre {
+        height: 100vh;
+        width: 100%;
+        background-color: #00334e;
+        z-index: 6000;
+        position: fixed;
+        top: 0;
+      }
+      .preloader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /*
+        width: 100%; */
+        /* background-color: black; */
+      }
+      #logo path:nth-child(1) {
+        stroke-dasharray: 1848.57397;
+        stroke-dashoffset: 1848.57397;
+        animation: line-anim 1.8s ease forwards;
+      }
+      #logo path:nth-child(2) {
+        stroke-dasharray: 1403.14501;
+        stroke-dashoffset: 1403.14501;
+        animation: line-anim 1.8s ease forwards 0.6s;
+      }
+
+      #logo {
+        animation: fill 0.4s ease forwards 2.3s;
+      }
+
+      @keyframes line-anim {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes fill {
+        from {
+          fill: transparent;
+        }
+        to {
+          fill: #ee6f57;
+        }
+      }
+    </style>
+  </head>
+  <body onload="myfunc()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="load_pre">
+      <svg
+        class="preloader"
+        id="logo"
+        width="409"
+        height="230"
+        viewBox="0 0 549 379"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M143.91 379C115.754 379 88.4666 374.964 62.0483 366.893C35.9776 358.822 15.2948 348.119 0 334.783L23.4636 281.618C38.4108 293.55 56.6603 303.375 78.2121 311.096C100.111 318.465 122.011 322.15 143.91 322.15C171.024 322.15 191.185 317.763 204.394 308.99C217.951 300.217 224.729 288.637 224.729 274.249C224.729 263.721 220.906 255.123 213.258 248.456C205.958 241.437 196.573 235.998 185.102 232.137C173.631 228.277 157.988 223.891 138.175 218.978C110.366 212.31 87.7713 205.643 70.3909 198.975C53.358 192.307 38.5846 181.955 26.0707 167.918C13.9044 153.53 7.82121 134.229 7.82121 110.015C7.82121 89.6616 13.2092 71.238 23.985 54.7444C35.1085 37.9 51.62 24.5648 73.5194 14.7389C95.7664 4.91296 122.88 0 154.86 0C177.107 0 199.006 2.80741 220.558 8.42223C242.11 14.037 260.707 22.1083 276.349 32.6361L254.971 85.8014C238.981 76.3264 222.296 69.1324 204.916 64.2195C187.535 59.3065 170.676 56.85 154.339 56.85C127.573 56.85 107.585 61.412 94.3759 70.5361C81.5144 79.6602 75.0836 91.7671 75.0836 106.857C75.0836 117.385 78.7335 125.982 86.0333 132.65C93.6807 139.318 103.24 144.581 114.711 148.442C126.182 152.302 141.825 156.688 161.638 161.601C188.752 167.918 210.999 174.586 228.379 181.604C245.76 188.272 260.533 198.624 272.699 212.661C285.213 226.698 291.47 245.648 291.47 269.511C291.47 289.865 285.909 308.288 274.785 324.782C264.009 341.275 247.498 354.435 225.251 364.261C203.004 374.087 175.89 379 143.91 379Z"
+          stroke="#EE6F57"
+          stroke-width="5"
+        />
+        <path
+          d="M425.946 379C402.656 379 381.105 374.438 361.291 365.314C341.825 355.839 325.835 342.679 313.321 325.835L351.906 278.986C372.067 307.06 396.226 321.097 424.382 321.097C462.271 321.097 481.216 298.462 481.216 253.193V62.6403H351.384V5.26387H549V249.508C549 292.672 538.572 325.133 517.715 346.89C496.859 368.297 466.269 379 425.946 379Z"
+          stroke="#EE6F57"
+          stroke-width="5"
+        />
+      </svg>
+    </div>
+
+    <div id="root"></div>
+
+    <!-- div for cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- js for cursor animation -->
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+    <script>
+      const load = document.getElementById("load_pre");
+
+      // function myfunc() {
+      //   setTimeout(function () {
+      //     load.style.display = "none";
+      //   }, 2800);
+      // }
+
+      function myfunc() {
+        load.style.display = "none";
+      }
+    </script>
+    <!-- ends here -->
+    <!-- 
+    <script>
+      const logo = document.querySelectorAll("#logo path");
+      console.log(logo[1].getTotalLength());
+      console.log("uwfuh");
+    </script> -->
+  </body>
+</html>
+
+<!-- 1848.573974609375 - s -->
+<!-- 1403.14501953125 j -->
+
+<!-- svg pre loader -->
+
+<!-- <div class="preloader"> -->
+<!-- <svg
+  class="preloader"
+  id="logo"
+  width="409"
+  height="230"
+  viewBox="0 0 549 379"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M143.91 379C115.754 379 88.4666 374.964 62.0483 366.893C35.9776 358.822 15.2948 348.119 0 334.783L23.4636 281.618C38.4108 293.55 56.6603 303.375 78.2121 311.096C100.111 318.465 122.011 322.15 143.91 322.15C171.024 322.15 191.185 317.763 204.394 308.99C217.951 300.217 224.729 288.637 224.729 274.249C224.729 263.721 220.906 255.123 213.258 248.456C205.958 241.437 196.573 235.998 185.102 232.137C173.631 228.277 157.988 223.891 138.175 218.978C110.366 212.31 87.7713 205.643 70.3909 198.975C53.358 192.307 38.5846 181.955 26.0707 167.918C13.9044 153.53 7.82121 134.229 7.82121 110.015C7.82121 89.6616 13.2092 71.238 23.985 54.7444C35.1085 37.9 51.62 24.5648 73.5194 14.7389C95.7664 4.91296 122.88 0 154.86 0C177.107 0 199.006 2.80741 220.558 8.42223C242.11 14.037 260.707 22.1083 276.349 32.6361L254.971 85.8014C238.981 76.3264 222.296 69.1324 204.916 64.2195C187.535 59.3065 170.676 56.85 154.339 56.85C127.573 56.85 107.585 61.412 94.3759 70.5361C81.5144 79.6602 75.0836 91.7671 75.0836 106.857C75.0836 117.385 78.7335 125.982 86.0333 132.65C93.6807 139.318 103.24 144.581 114.711 148.442C126.182 152.302 141.825 156.688 161.638 161.601C188.752 167.918 210.999 174.586 228.379 181.604C245.76 188.272 260.533 198.624 272.699 212.661C285.213 226.698 291.47 245.648 291.47 269.511C291.47 289.865 285.909 308.288 274.785 324.782C264.009 341.275 247.498 354.435 225.251 364.261C203.004 374.087 175.89 379 143.91 379Z"
+    stroke="#EE6F57"
+    stroke-width="5"
+  />
+  <path
+    d="M425.946 379C402.656 379 381.105 374.438 361.291 365.314C341.825 355.839 325.835 342.679 313.321 325.835L351.906 278.986C372.067 307.06 396.226 321.097 424.382 321.097C462.271 321.097 481.216 298.462 481.216 253.193V62.6403H351.384V5.26387H549V249.508C549 292.672 538.572 325.133 517.715 346.89C496.859 368.297 466.269 379 425.946 379Z"
+    stroke="#EE6F57"
+    stroke-width="5"
+  />
+</svg> -->

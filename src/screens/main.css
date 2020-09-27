@@ -1,0 +1,49 @@
+.aboutme {
+  /* top: 60%; */
+  /* height: 100vh; */
+  width: 90%;
+  padding: 20px 10px;
+  margin: 4rem auto 0;
+  margin-bottom: 128px;
+}
+
+@media (max-width: 768px) {
+  .aboutme {
+    margin: 0 auto;
+  }
+}
+
+.exp_timeline {
+  margin-bottom: 80px;
+}
+
+.about_exp_h1 {
+  padding: 10px 10px;
+  border-bottom: #ee6f57 solid 3px;
+  width: 420px;
+  margin-left: 80px;
+  margin-bottom: 86px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about_exp_h1 {
+    padding: 10px 10px;
+    border-bottom: #ee6f57 solid 3px;
+    width: 90%;
+    margin: 40px auto;
+    margin-bottom: 86px;
+    font-weight: 600;
+  }
+  .aboutme {
+    margin-bottom: 98px;
+  }
+}
+
+.ach_screen {
+  margin-bottom: 60px;
+}
+
+.project_screen {
+  margin-bottom: 132px;
+}

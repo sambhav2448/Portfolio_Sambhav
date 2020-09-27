@@ -1,0 +1,158 @@
+.about_contact_h1 {
+  border-bottom: #ee6f57 solid 3px;
+  width: 240px;
+  padding-bottom: 8px;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-bottom: 64px;
+}
+
+.contact_me_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 104px;
+}
+
+@media (min-width: 768px) {
+  .icon_contactme {
+    /* width: 40%; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.flex_icon1,
+.flex_icon2 {
+  display: flex;
+}
+/* @media (min-width) {
+  .icon_contactme {
+    width: 90%;
+  }
+} */
+
+@media (max-width: 769px) {
+  .flex_icon1 > a,
+  .flex_icon2 > a {
+    text-decoration: none;
+    color: #f6f5f5;
+    margin: 42px 15px;
+  }
+  .flex_icon2 i,
+  .flex_icon1 i {
+    margin: 0 8px;
+  }
+  .flex_icon1 {
+    margin-bottom: 16px;
+  }
+}
+
+.icon_contactme {
+  margin-top: 32px;
+}
+.flex_icon1 > a,
+.flex_icon2 > a {
+  text-decoration: none;
+  color: #f6f5f5;
+  margin: 0 5px;
+}
+
+.flex_icon1 > a:hover,
+.flex_icon2 > a:hover {
+  text-decoration: none;
+  color: #f6f5f5;
+}
+/* .icon_bg_color {
+  padding: 2px 2px;
+  background: #003341;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+} */
+
+.icon_bg_color i {
+  cursor: pointer;
+  background: #003341;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  font-size: 26px;
+  text-align: center;
+  line-height: 50px;
+  user-select: none;
+}
+.heart_img {
+  height: 24px;
+  width: 24px;
+  margin: 0px 6px;
+}
+
+.footer_contact {
+  color: #00334e;
+  display: flex;
+  justify-content: center;
+}
+
+.fb > i {
+  background: #3b5998;
+}
+.github > i {
+  background: #333;
+}
+.twitter > i {
+  background: #1da1f2;
+}
+.insta > i {
+  background: #be3281;
+}
+.google > i {
+  background: #ea4335;
+}
+.medium > i {
+  background: #111;
+}
+.linkedin > i {
+  background: #0e76a8;
+}
+
+.gitlab > i {
+  background: #fc6d27;
+}
+
+.icon_bg_color {
+  transition: 0.22s;
+}
+.icon_bg_color:hover {
+  transform: scale(1.1);
+}
+
+.email_contact_us {
+  color: #003341;
+  margin-top: 16px;
+  font-weight: 600;
+  letter-spacing: 1.1;
+}
+
+/* .cool_line_contact {
+  color: #145374;
+  font-size: 24px;
+  margin-bottom: 42px;
+} */
+
+.cool_line_contact {
+  padding: 2px 24px;
+  color: #145374;
+  font-size: 24px;
+  margin-bottom: 42px;
+}
+
+@media (max-width: 768px) {
+  .cool_line_contact {
+    font-size: 20px;
+  }
+}

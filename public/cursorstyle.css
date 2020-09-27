@@ -1,0 +1,93 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    color: #fff;
+    cursor: pointer;
+  } */
+
+/* .content p{
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+  } */
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+  .cursor2 {
+    display: none;
+  }
+}
+.cursor {
+  position: fixed;
+  width: 33px;
+  height: 33px;
+  border: 1.2px solid #1b6d99ec;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+  z-index: 5000;
+}
+
+.cursor2 {
+  position: fixed;
+  width: 7px;
+  height: 7px;
+  background-color: #1b6d99;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.15s;
+  z-index: 5000;
+}
+
+.content_cursor:hover ~ .cursor {
+  transform: translate(-50%, -50%) scale(1.5);
+  background-color: #145374;
+  opacity: 0.5;
+}
+
+.content:hover ~ .cursor2 {
+  opacity: 0;
+}
+
+/* ---scroll bar--- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f6f5f5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00334e;
+  border-radius: 4px;
+  max-height: 20%;
+  height: 4.5%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00334e;
+  cursor: pointer;
+}

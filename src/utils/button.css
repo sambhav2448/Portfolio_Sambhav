@@ -1,0 +1,71 @@
+button {
+  margin: 1rem;
+}
+
+.btn {
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  background-color: none !important;
+  color: #145374;
+  padding: 12px 42px !important;
+  border: none !important;
+  outline: 1.8px solid #145374 !important;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  --background-color: #fff;
+  --border-size: 2px;
+  --accent-color: #145374;
+
+  box-shadow: 2px 3px 4px #e3e3e3 !important;
+}
+
+.btn-slide-small {
+  padding: 4px 16px !important;
+  text-transform: none !important;
+}
+.btn-slide-large {
+  padding: 16px 104px !important;
+}
+
+.btn.btn-background-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--accent-color);
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before {
+  transform: scaleX(1);
+  border: none !important;
+  outline: none;
+  color: #ee6f57 !important;
+  font-weight: 700;
+}
+
+.btn.btn-background-slide {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus {
+  color: #ee6f57;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 8px 32px !important;
+  }
+}

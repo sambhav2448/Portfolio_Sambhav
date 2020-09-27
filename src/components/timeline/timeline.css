@@ -1,0 +1,38 @@
+.icon_timeline {
+  font-size: 32px;
+  color: #f6f5f5 !important;
+  padding-top: 14px;
+  padding-left: 11px;
+}
+
+.vertical-timeline::before {
+  background: #00334e;
+}
+.vertical-timeline-element-title {
+  font-weight: 600;
+}
+
+.vertical-timeline-element-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #00334e, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .icon_timeline {
+    font-size: 22px;
+    color: #f6f5f5 !important;
+    padding-top: 10px;
+    padding-left: 7px;
+  }
+  .vertical-timeline {
+    width: 90%;
+  }
+}

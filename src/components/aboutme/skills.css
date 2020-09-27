@@ -1,0 +1,36 @@
+.about_skills_h1 {
+  border-bottom: #ee6f57 solid 3px;
+  width: 220px;
+  padding-bottom: 8px;
+}
+
+.about_skills {
+  margin-top: 40px;
+}
+.about_skills_h1 {
+  font-weight: 700;
+}
+
+.icon_skill {
+  padding: 12px;
+  font-size: 56px;
+  color: #00334e;
+}
+.iconifyr {
+  transform: scale(1.6) !important;
+  padding: 12px !important;
+  margin: 12px;
+}
+
+.col_skill_p > p {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.icon_skill:hover,
+.iconifyr:hover,
+.col_skill_p > p:hover {
+  cursor: pointer;
+  /* color: #145374; */
+  /* color: #145374; */
+}

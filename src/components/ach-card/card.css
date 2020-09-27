@@ -1,0 +1,49 @@
+.hover01 {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hover01:hover {
+  transform: scale(1.15);
+}
+
+.figure {
+  overflow: hidden;
+  box-shadow: 8px 8px 10px #145374;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.figure:hover {
+  box-shadow: 12px 16px 12px #00334e;
+}
+.title_card_ach {
+  font-weight: 600;
+  color: #00334e;
+  font-size: 24px;
+}
+
+.subtitle_card_ach {
+  color: #ee6f57;
+  font-size: 16px;
+  margin-bottom: 16px !important;
+}
+
+.p_card_ach {
+  color: #145374;
+}
+
+.about_ach_card_h1 {
+  border-bottom: #ee6f57 solid 3px;
+  width: 420px;
+  padding-bottom: 8px;
+  margin-bottom: 68px !important;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .about_ach_card_h1 {
+    width: 94%;
+  }
+} ;
