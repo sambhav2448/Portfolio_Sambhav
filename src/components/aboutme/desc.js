@@ -8,7 +8,7 @@ function Desc() {
       <div>
         <h1 className="about_desc_h1">About me</h1>
         <p className="about_desc">
-          {/* Hi 👋 <br></br> */}I am your next door
+          I am your next door
           <span className="about_desc_span"> Javascript </span>
           developer. I am proficient at making end to end products with JS.Want
           a<span className="about_desc_span"> full stack web application</span>?

@@ -14,7 +14,6 @@ function Timeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#00334e", color: "#ee6f57" }}
-          // ontentArrowStyle={{ borderRight: "7px solid #00334e" }}
           date="Sept 2020 - present"
           iconStyle={{ background: "#145374", color: "#fff" }}
           icon={<i className="fas fa-laptop-code icon_timeline"></i>}

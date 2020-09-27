@@ -9,7 +9,6 @@ import Fade from "react-reveal/Fade";
 
 function Intro() {
   return (
-    // <Fade>
     <div className="intro_landing" id="intro">
       <Container>
         <Row>
@@ -41,7 +40,6 @@ function Intro() {
             </div>
           </Col>
           <Col xs="12" md="6" className="order-1 order-md-2">
-            {/* <div className="bgimg1"> */}
             <img
               src={Sampic2}
               alt="Sambhav's pic"
@@ -49,13 +47,10 @@ function Intro() {
               width="70%"
               className="sampic1"
             ></img>
-            {/* </div> */}
           </Col>
         </Row>
       </Container>
     </div>
-    //{" "}
-    // </Fade>
   );
 }
 

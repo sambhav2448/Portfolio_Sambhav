@@ -57,10 +57,8 @@ function Cards() {
                 <CardImg
                   className="hover01"
                   top
-                  // width="100%"
                   height="170px"
                   src={sci}
-                  // src="https://media-exp1.licdn.com/dms/image/sync/C5627AQG2uOmMipuikg/articleshare-shrink_1280_800/0?e=1600891200&v=beta&t=U-htSkdHPPfontugKbnrFW9iK6eHUpLVjEQLS3dQT9Y"
                   alt="Card image cap"
                 />
                 <CardBody>

@@ -7,9 +7,7 @@ function Landing() {
   return (
     <div>
       <Header />
-      <Reveal effect="fadeInUp">
-        <Introduction />
-      </Reveal>
+      <Introduction />
     </div>
   );
 }

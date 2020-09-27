@@ -30,7 +30,6 @@ function Header() {
         <NavbarBrand href="/" className="logo">
           Sambhav Jain
         </NavbarBrand>
-        {/* <NavbarToggler onClick={toggle} /> */}
         <div
           onClick={toggle}
           className={toggler ? "menu-btn open" : "menu-btn"}

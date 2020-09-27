@@ -33,7 +33,6 @@ function Skills() {
               <p>Node.js</p>
             </Col>
             <Col xs="6" md="3" className="col_skill_p">
-              {/* <i className="fas fa-database icon_skill"></i> */}
               <span
                 className="iconify icon_skill iconifyr"
                 data-icon="cib:mongodb"
@@ -42,7 +41,6 @@ function Skills() {
               <p>Mongo DB</p>
             </Col>
             <Col xs="6" md="3" className="col_skill_p">
-              {/* <i className="fas fa-fire  icon_skill"></i> */}
               <span
                 className="iconify icon_skill iconifyr"
                 data-icon="cib:firebase"
@@ -57,7 +55,6 @@ function Skills() {
           </Row>
           <Row>
             <Col xs="6" md="3" className="col_skill_p">
-              {/* <i className="fab fa-react  icon_skill"></i> */}
               <span
                 className="iconify icon_skill iconifyr"
                 data-icon="simple-icons:redux"
