@@ -1,38 +1,38 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import "./project.css";
-import laptopimg from "../../assets/laptop.jpeg";
-import phoneimg from "../../assets/phone.png";
-import Largebutton from "../../utils/button-large";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import './project.css';
+import laptopimg from '../../assets/laptop.jpeg';
+import phoneimg from '../../assets/phone.png';
+import Largebutton from '../../utils/button-large';
+import Fade from 'react-reveal/Fade';
 
-import Project1 from "../../assets/proj_complete_1.JPG";
-import Project2 from "../../assets/proj_complete_2.JPG";
-import Project3 from "../../assets/android_project_3.JPG";
-import Project4 from "../../assets/proj_complete_4.JPG";
+import Project1 from '../../assets/proj_complete_1.JPG';
+import Project2 from '../../assets/proj_complete_2.JPG';
+import Project3 from '../../assets/android_project_3.JPG';
+import Project4 from '../../assets/proj_complete_4.JPG';
 
 function Project() {
   return (
-    <div id="projects">
-      <Container className="about_project_main">
+    <div id='projects'>
+      <Container className='about_project_main'>
         <Fade>
-          <h1 className="about_project_h1" id="projects">
+          <h1 className='about_project_h1' id='projects'>
             My Projects
           </h1>
         </Fade>
-        <Row className="about_projects">
-          <Col xs="12" md="6" className="col_projects mb-3 img_flex_center">
-            <img src={Project1} alt="project"></img>
+        <Row className='about_projects'>
+          <Col xs='12' md='6' className='col_projects mb-3 img_flex_center'>
+            <img src={Project1} alt='project'></img>
           </Col>
-          <Col xs="12" md="6" className="col_projects mb-3">
+          <Col xs='12' md='6' className='col_projects mb-3'>
             <Fade right>
-              <div className="proj_heading_and_link">
+              <div className='proj_heading_and_link'>
                 <h2>Foodilicious </h2>
                 <a
-                  href="https://whispering-wildwood-64357.herokuapp.com/"
-                  target="_blank"
+                  href='https://whispering-wildwood-64357.herokuapp.com/'
+                  target='_blank'
                 >
-                  <i className="fas fa-external-link-alt link_emoji_small"></i>
+                  <i className='fas fa-external-link-alt link_emoji_small'></i>
                 </a>
               </div>
               <p>
@@ -44,17 +44,17 @@ function Project() {
           </Col>
         </Row>
         <hr></hr>
-        <Row className="about_projects">
-          <Col xs="12" md="6" className="col_projects mb-3 order-2 order-md-1">
+        <Row className='about_projects'>
+          <Col xs='12' md='6' className='col_projects mb-3 order-2 order-md-1'>
             <Fade left>
-              <div className="proj_heading_and_link">
+              <div className='proj_heading_and_link'>
                 <h2>Text'em</h2>
                 <a
-                  href="https://text-em.herokuapp.com/
-"
-                  target="_blank"
+                  href='https://text-em.herokuapp.com/
+'
+                  target='_blank'
                 >
-                  <i className="fas fa-external-link-alt link_emoji_small"></i>
+                  <i className='fas fa-external-link-alt link_emoji_small'></i>
                 </a>
               </div>
               <p>
@@ -66,33 +66,33 @@ function Project() {
           </Col>
 
           <Col
-            xs="12"
-            md="6"
-            className="col_projects mb-3 rightimg order-1 order-md-2 img_flex_center"
+            xs='12'
+            md='6'
+            className='col_projects mb-3 rightimg order-1 order-md-2 img_flex_center'
           >
-            <img src={Project2} alt="project"></img>
+            <img src={Project2} alt='project'></img>
           </Col>
         </Row>
         <hr></hr>
 
-        <Row className="about_projects">
+        <Row className='about_projects'>
           <Col
-            xs="12"
-            md="6"
-            className="col_projects phone_img mb-3 img_flex_center"
+            xs='12'
+            md='6'
+            className='col_projects phone_img mb-3 img_flex_center'
           >
-            <img src={Project3} alt="project"></img>
+            <img src={Project3} alt='project'></img>
           </Col>
-          <Col xs="12" md="6" className="col_projects mb-3">
+          <Col xs='12' md='6' className='col_projects mb-3'>
             <Fade right>
-              <div className="proj_heading_and_link">
+              <div className='proj_heading_and_link'>
                 <h2>Youtube Clone</h2>
                 <a
-                  href="https://github.com/sambhav2448/youtube_clone_app
-"
-                  target="_blank"
+                  href='https://github.com/sambhav2448/youtube_clone_app
+'
+                  target='_blank'
                 >
-                  <i className="fas fa-external-link-alt link_emoji_small"></i>
+                  <i className='fas fa-external-link-alt link_emoji_small'></i>
                 </a>
               </div>
 
@@ -109,13 +109,13 @@ function Project() {
         </Row>
         <hr></hr>
 
-        <Row className="about_projects mb-5">
-          <Col xs="12" md="6" className="col_projects mb-3 order-2 order-md-1">
+        <Row className='about_projects mb-5'>
+          <Col xs='12' md='6' className='col_projects mb-3 order-2 order-md-1'>
             <Fade left>
-              <div className="proj_heading_and_link">
+              <div className='proj_heading_and_link'>
                 <h2>Take me too</h2>
-                <a href="https://takemetoo.netlify.app/" target="_blank">
-                  <i className="fas fa-external-link-alt link_emoji_small"></i>
+                <a href='https://takemetoo.netlify.app/' target='_blank'>
+                  <i className='fas fa-external-link-alt link_emoji_small'></i>
                 </a>
               </div>
               <p>
@@ -127,17 +127,17 @@ function Project() {
             </Fade>
           </Col>
           <Col
-            xs="12"
-            md="6"
-            className="col_projects mb-3 rightimg order-1 order-md-2 img_flex_center"
+            xs='12'
+            md='6'
+            className='col_projects mb-3 rightimg order-1 order-md-2 img_flex_center'
           >
-            <img src={Project4} alt="project"></img>
+            <img src={Project4} alt='project'></img>
           </Col>
         </Row>
       </Container>
       <Fade>
-        <div className="moreinfo_project">
-          <a href="https://github.com/sambhav2448" target="_blank">
+        <div className='moreinfo_project'>
+          <a href='https://github.com/sambhav2448' target='_blank'>
             <Largebutton>More projects</Largebutton>
           </a>
         </div>
