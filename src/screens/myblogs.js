@@ -1,11 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import "./main.css";
-import Blog from "../components/blogs/blog";
+import React from 'react';
+import './main.css';
+import Blog from '../components/blogs/blog';
 
 function Blogs() {
   return (
-    <div id="blog">
+    <div id='blog'>
       <Blog />
     </div>
   );

@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  NavbarText,
-} from "reactstrap";
+} from 'reactstrap';
 
-import "./header.css";
+import './header.css';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,47 +21,47 @@ function Header() {
 
   return (
     <>
-      <Navbar expand="md" className="nav__header content_cursor">
-        <NavbarBrand href="/" className="logo">
+      <Navbar expand='md' className='nav__header content_cursor'>
+        <NavbarBrand href='/' className='logo'>
           Sambhav Jain
         </NavbarBrand>
         <div
           onClick={toggle}
-          className={toggler ? "menu-btn open" : "menu-btn"}
+          className={toggler ? 'menu-btn open' : 'menu-btn'}
         >
-          <div className="menu-btn__burger"></div>
+          <div className='menu-btn__burger'></div>
         </div>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className='ml-auto' navbar>
             <NavItem>
-              <NavLink href="#about" className="nav__elements">
+              <NavLink href='#about' className='nav__elements'>
                 About
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#experience" className="nav__elements">
+              <NavLink href='#experience' className='nav__elements'>
                 Experience
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="#achievement" className="nav__elements">
+              <NavLink href='#achievement' className='nav__elements'>
                 Achievements
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="#projects" className="nav__elements">
+              <NavLink href='#projects' className='nav__elements'>
                 Project
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#blog" className="nav__elements">
+              <NavLink href='#blog' className='nav__elements'>
                 Blog
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#contact" className="nav__elements">
+              <NavLink href='#contact' className='nav__elements'>
                 Contact
               </NavLink>
             </NavItem>
