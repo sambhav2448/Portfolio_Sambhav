@@ -14,35 +14,33 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           contentStyle={{ background: '#00334e', color: '#ee6f57' }}
-          date='Sept 2020 - present'
+          date='May 2023 - Aug 2023'
           iconStyle={{ background: '#145374', color: '#fff' }}
           icon={<i className='fas fa-laptop-code icon_timeline'></i>}
         >
           <h3 className='vertical-timeline-element-title'>
-            GirlScript Vellore
+           Tesla Inc.
           </h3>
           <h4 className='vertical-timeline-element-subtitle'>
-            Web Developement Lead
+            Full Stack Software Engineering Inern
           </h4>
           <p>
-            GirlScript is working to change lives by imparting tech education
-            and relevant skills.
+            To accelerate the world's transition to sustainable energy
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
-          date='May 2020 - Jan 2021'
+          date='Oct 2021 - March 2022'
           contentStyle={{ background: '#00334e', color: '#ee6f57' }}
           iconStyle={{ background: '#145374', color: '#ee6f57' }}
           icon={<i className='fas fa-user-friends  icon_timeline'></i>}
         >
-          <h3 className='vertical-timeline-element-title'>TedX Vit Vellore</h3>
+          <h3 className='vertical-timeline-element-title'>Samsung R&D</h3>
           <h4 className='vertical-timeline-element-subtitle'>
-            Core Committee member
+            Research Intern
           </h4>
           <p>
-            TEDx is a program of local, self-organized events that bring people
-            together to share a TED-like experience.
+          Samsung R&D Institute India-Bangalore (SRI-B) is the largest R&D Center outside of South Korea and a key innovation hub in the Samsung group
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
