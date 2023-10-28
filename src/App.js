@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Landingpage from "./screens/landing";
 import About from "./screens/aboutme";
+import NextStep from "./screens/nextstep";
 import Experience from "./screens/experience";
 import Achievement from "./screens/achievement";
 import Project from "./screens/projects";
@@ -17,15 +18,21 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/">
+          <Route path="/" exact>
             <Landingpage />
             <About />
             <Experience />
             <Achievement />
-            <Project />
+            <Project name="My Projects"/>
             <Blog />
             <Contactme />
             <Scroll />
+          </Route>
+          <Route path="/portfolio" >
+            <Landingpage />
+            <About />
+            <NextStep/>
+            <Project name="Portfolio"/>
           </Route>
         </Switch>
       </Router>

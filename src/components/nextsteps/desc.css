@@ -1,0 +1,34 @@
+.about_desc {
+  margin-top: 56px;
+  font-size: 22px;
+  line-height: 1.8;
+  letter-spacing: 1.4;
+  margin-bottom: 56px;
+  margin-right: 12px;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.nextstep_desc_h1 {
+  border-bottom: #ee6f57 solid 3px;
+  width: 440px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.about_desc_span {
+  color: #00334e;
+  font-weight: bold;
+}
+
+.about_desc_span {
+  color: #00334e;
+}
+
+@media (max-width: 768px) {
+  .about_desc {
+    /* margin-top: 56px; */
+    font-size: 18px;
+  }
+}

@@ -16,11 +16,11 @@ function Intro() {
             <div className='intro_self'>
               <p className='intro_line_dev'>
                 Hey!
-                <img
+                {/* <img
                   className='hi_image'
                   src='https://twemoji.maxcdn.com/2/72x72/1f44b.png'
                   alt='hi'
-                ></img>
+                ></img> */}
                 <br></br>I am
                 <span className='myname_intro'> Sambhav,</span>
                 <br></br>I am
@@ -28,7 +28,7 @@ function Intro() {
               </p>
               <div className='intro_button'>
                 <a
-                  href='https://drive.google.com/file/d/10rZP6ZQzSIC3t7DAEP8GUbJLW_-toSkM/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1xsyS9PxrYxhcOxv884MlvJdDZPIAOt8Z/view?usp=sharing'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

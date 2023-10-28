@@ -9,13 +9,13 @@ import Project2 from '../../assets/proj_complete_2.JPG';
 import Project3 from '../../assets/android_project_3.JPG';
 import Project4 from '../../assets/proj_complete_4.JPG';
 
-function Project() {
+function Project({name}) {
   return (
     <div id='projects'>
       <Container className='about_project_main'>
         <Fade>
           <h1 className=' h1_for_project' id='projects'>
-            My Projects
+            {name}
           </h1>
         </Fade>
         <Row className='about_projects'>
