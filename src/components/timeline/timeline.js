@@ -22,7 +22,7 @@ function Timeline() {
            Tesla Inc.
           </h3>
           <h4 className='vertical-timeline-element-subtitle'>
-            Full Stack Software Engineering Inern
+            Full Stack Software Engineering Intern
           </h4>
           <p>
             To accelerate the world's transition to sustainable energy

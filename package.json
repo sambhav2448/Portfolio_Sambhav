@@ -16,7 +16,8 @@
     "react-scripts": "3.4.3",
     "react-typed": "^1.2.0",
     "react-vertical-timeline-component": "^3.0.2",
-    "reactstrap": "^8.6.0"
+    "reactstrap": "^8.6.0",
+    "tableau-api": "^2.2.3"
   },
   "scripts": {
     "predeploy": "yarn run build",
