@@ -84,7 +84,7 @@ function Assgn1() {
 
             <img src="https://images.squarespace-cdn.com/content/v1/5d59f351fddabe00013cf3e6/f9b4b336-fe23-4260-aae3-19f6f8f72b8b/PROTEIN+COST.png?format=2500w" alt="Cost-effective Protein Sources for Fitness Enthusiasts" />
             
-            <p>Data sourced from <a href="URL-to-original-publisher">Original Publisher</a>, Year Published.</p>
+            <p>Data sourced from <a href="https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet">Original Publisher</a>, Year Published.</p>
             </div>
 
         </Row>
