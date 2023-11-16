@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Container, Row } from "reactstrap";
+import {Link} from 'react-router-dom'
 
 function Assgn1() {
   // Create refs for each Tableau viz
@@ -42,6 +43,7 @@ function Assgn1() {
 
   return (
     <section className="aboutme content_cursor" id="about">
+      <Link to="/makeovermonday">Go to my makeovermonday</Link>
       <Container>
         <h1 className="nextstep_desc_h1">Government Debt Viz</h1>
 
@@ -49,6 +51,8 @@ function Assgn1() {
         <Row>
             <h2>government debt bar chart</h2>
         </Row>
+
+  
         <Row>
           <iframe 
             src="https://data.oecd.org/chart/7f9Z"
@@ -76,7 +80,8 @@ function Assgn1() {
         <Row>
             <h1>Tree Map</h1>
         </Row>
-        {/* Second Tableau Chart Container */}
+        
+        
         <Row>
 
           <div ref={tableauRef2} style={{ width: "100%", height: "645px" }} />

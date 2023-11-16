@@ -10,6 +10,8 @@ import Blog from "./screens/myblogs";
 import Contactme from "./screens/contactme";
 import Scroll from "./components/scrollToTop/scroll";
 import Assgn1 from "./screens/Assgn1";
+import Assgn2 from "./screens/Assgn2";
+
 import Assgn1p2 from "./screens/Assgn1p2";
 
 // import "../src/components/scrollToTop/scroll.css";
@@ -37,8 +39,13 @@ function App() {
             <NextStep/>
             <Project name="Portfolio"/>
             <Assgn1/>
-            {/* <Assgn1p2/> */}
           </Route>
+
+          <Route path="/makeovermonday" >
+            <Landingpage />
+            <Assgn2/>
+          </Route>
+
         </Switch>
       </Router>
     </>
