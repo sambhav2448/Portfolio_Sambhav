@@ -11,6 +11,7 @@ import Contactme from "./screens/contactme";
 import Scroll from "./components/scrollToTop/scroll";
 import Assgn1 from "./screens/Assgn1";
 import Assgn2 from "./screens/Assgn2";
+import Assgn3 from "./screens/Assgn3";
 
 import Assgn1p2 from "./screens/Assgn1p2";
 
@@ -44,6 +45,11 @@ function App() {
           <Route path="/makeovermonday" >
             <Landingpage />
             <Assgn2/>
+          </Route>
+
+          <Route path="/finalproject" >
+            {/* <Landingpage /> */}
+            <Assgn3/>
           </Route>
 
         </Switch>
