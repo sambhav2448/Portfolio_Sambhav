@@ -12,6 +12,7 @@ import Scroll from "./components/scrollToTop/scroll";
 import Assgn1 from "./screens/Assgn1";
 import Assgn2 from "./screens/Assgn2";
 import Assgn3 from "./screens/Assgn3";
+import Assgn4 from "./screens/Assgn4";
 
 import Assgn1p2 from "./screens/Assgn1p2";
 
@@ -50,6 +51,11 @@ function App() {
           <Route path="/finalproject" >
             {/* <Landingpage /> */}
             <Assgn3/>
+          </Route>
+
+          <Route path="/finalproject_part2" >
+            {/* <Landingpage /> */}
+            <Assgn4/>
           </Route>
 
         </Switch>
