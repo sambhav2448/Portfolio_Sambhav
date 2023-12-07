@@ -13,6 +13,8 @@ import Assgn1 from "./screens/Assgn1";
 import Assgn2 from "./screens/Assgn2";
 import Assgn3 from "./screens/Assgn3";
 import Assgn4 from "./screens/Assgn4";
+import Assgn5 from "./screens/Assgn5";
+import NavbarP from "./components/navlinks";
 
 import Assgn1p2 from "./screens/Assgn1p2";
 
@@ -35,7 +37,9 @@ function App() {
             <Contactme />
             <Scroll />
           </Route>
+
           <Route path="/portfolio" >
+            <NavbarP/>
             <Landingpage />
             <About />
             <NextStep/>
@@ -44,19 +48,30 @@ function App() {
           </Route>
 
           <Route path="/makeovermonday" >
-            <Landingpage />
+          <NavbarP/>
+
             <Assgn2/>
           </Route>
 
           <Route path="/finalproject" >
+          <NavbarP/>
+
             {/* <Landingpage /> */}
             <Assgn3/>
           </Route>
 
           <Route path="/finalproject_part2" >
+          <NavbarP/>
+
             {/* <Landingpage /> */}
             <Assgn4/>
           </Route>
+
+          <Route path="/finalproject_part3" >
+          <NavbarP/>
+
+            <Assgn5/>
+            </Route>
 
         </Switch>
       </Router>

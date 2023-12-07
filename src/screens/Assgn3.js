@@ -10,7 +10,7 @@ import sp4 from '../assets/portfolio/sp4.png'; // Adjust the path accordingly
 import sp5 from '../assets/portfolio/sp5.png'; // Adjust the path accordingly
 import sp6 from '../assets/portfolio/sp6.png'; // Adjust the path accordingly
 
-function Assgn1() {
+function Assgn3() {
   
 
  
@@ -166,4 +166,4 @@ function Assgn1() {
   );
 }
 
-export default Assgn1;
+export default Assgn3;

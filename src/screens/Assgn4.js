@@ -6,7 +6,7 @@ import sp1 from '../assets/final2-1.png'; // Adjust the path accordingly
 import sp2 from '../assets/final2-2.png'; // Adjust the path accordingly
 import sp3 from '../assets/final2-3.png'; // Adjust the path accordingly
 
-function Assgn1() {
+function Assgn4() {
   
   // Create refs for each Tableau viz
   const tableauRef1 = useRef(null);
@@ -253,4 +253,4 @@ Between the 1950s and 1980s, various music genres experienced a steady increase 
   );
 }
 
-export default Assgn1;
+export default Assgn4;
